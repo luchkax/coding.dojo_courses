@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.header{
+    width: 930px;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+}
+.blue_text{
+    color: rgb(41, 104, 157);
+}
+.header img{
+    width: 90px;
+    position: absolute;
+}
+.header h1{
+    color: rgb(79, 79, 79);
+    font-size: 48px;
+    font-weight: normal;
+    margin: 20px 0px 0px 95px
+}
+.header h2{
+    font-size: 32px;
+    color: white;
+    background: linear-gradient(rgb(19, 99, 155), rgb(83, 131, 170), rgb(26, 100, 156));
+    padding: 10px;
+    font-weight: normal;
+    display: block;
+}
+.main_body{
+    width: 930px;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+    background: linear-gradient(rgb(229, 229, 229), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.left_column{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.left_first{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+.red_text{
+    color: red;
+}
+.left_second{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.blue_text{
+    color: rgb(69, 123, 169);
+}
+.button{
+    width: 195px;
+    height: 30px;
+    border: black 1px solid;
+    padding-top: 7px;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    box-shadow:2px 2px rgb(138, 140, 143);
+}
+.blue{
+    background: linear-gradient(rgb(95, 150, 192), rgb(37, 104, 158));
+}
+.orange{
+    background: linear-gradient(rgb(233, 169, 86), rgb(239, 116, 0));
+    margin-bottom: 30px;
+}
+.ninja_box{
+    width: 200px;
+    height: 280px;
+    background-image: url("images/ad_background.png");
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+.ninja_box p{
+    color: white;
+    font-size: 24px;
+}
+.ninja_box img{
+    width: 85px;
+    margin-bottom: 5px;
+}
+.button.light_blue{
+    background: linear-gradient(rgb(123, 209, 223), rgb(5, 194, 222));
+    font-size: 18px;
+    width: 170px;
+    height: 30px;
+    margin-left: 15px;
+    padding-top: 5px;
+    box-shadow: none;
+}
+.small_carrots{
+    font-size: 10px;
+}
+.right_column{
+    width: 675px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.right_column .home{
+    width: 20px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+.right_column p{
+    display: inline-block;
+    vertical-align: top
+}
+.right_column .thin_blue{
+    color: rgb(0, 53, 140);
+    font-size: 15px;
+    margin-right: 410px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.right_column .phone{
+    width: 40px;
+    margin-top: 10px;
+}
+.right_column .contact_info{
+    width: 160px;
+    height: 65px;
+    text-align: center;
+    font-size: 10px;
+}
+.phone_number{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(37, 193, 221);
+}
+h3{
+    color: rgb(40, 102, 156);
+    margin: 7px 0px;
+}
+.right_column p{
+    font-size: 14px;
+}
+.right_column li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.right_column ul{
+    margin-left: 40px;
+}
+.right_column ol{
+    margin-left: 40px;
+}
+.client_server{
+    width: 250px;
+    margin: 20px 0px 10px 200px;
+}
+.blue_highlights{
+    color: rgb(0, 147, 170);
+}
+.italic{
+    font-style: italic;
+}
+#footer{
+    height: 110px;
+    border-color: rgb(21, 136, 221);
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    padding: 10px 0px 0px 10px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+.html_icon{
+    width: 110px;
+    display: inline-block;
+}
+.footer_text{
+    width: 522px;
+    display: inline-block;
+    vertical-align: top;
+}
+#footer h3{
+    display: inline-block;
+    width: 320px;
+    vertical-align: top;
+    margin-top: 0px;
+}
+#footer p{
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+    margin-bottom: 5px;
+}

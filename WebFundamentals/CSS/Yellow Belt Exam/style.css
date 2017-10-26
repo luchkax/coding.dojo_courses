@@ -1,0 +1,247 @@
+*{
+    font-family: 'arial';
+}
+.wrapper{
+    width: 800px;
+    height: 910px;
+    background-color: #002233;
+    padding-top: 1px; 
+
+}
+.header{
+    width: 800px;
+    height: 80px;
+    padding-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+.header h1{
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar li{
+    margin-right: 30px;
+}
+.main-content{
+    width: 760px;
+    height: 825px;
+    background-color: white;
+    margin-left: 20px;
+}
+.mainimg img{
+    width: 720px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mainblocks{
+    vertical-align: top;
+    margin-left: 20px;
+}
+.services{
+    display: inline-block;
+    width: 220px;
+    height: 170px;
+    background-color: #006BA4;
+    color: white;
+    margin-right: 13px;
+}
+.services img{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    border-radius: 22px;
+    margin-left: 20px;
+    padding-top: 5px;
+   
+}.services h3{
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.services p{
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button{
+    background-color: rgb(37, 84, 138);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 18px;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.projects{
+    display: inline-block;
+    width: 220px;
+    height: 170px;
+    background-color: #006BA4;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.projects img{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    border-radius: 22px;
+    margin-left: 20px;
+    padding-top: 5px;
+   
+}.projects h3{
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.projects p{
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.clients{
+    display: inline-block;
+    width: 220px;
+    height: 170px;
+    background-color: #006BA4;
+    color: white;
+    margin-left: 13px;
+}
+.clients img{
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+    border-radius: 22px;
+    margin-left: 20px;
+    padding-top: 5px;
+   
+}.clients h3{
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.clients p{
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pre-footer{
+
+}
+.left-block{
+    display: inline-block;
+    height: 230px;
+    width: 280px;
+    
+
+}
+.left-block h4{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.left-block img{
+    margin-left: 20px;
+    width: 250px;
+}
+.middle-block{
+    display: inline-block;
+    vertical-align: top;
+    height: 170px;
+    width: 220px;
+    margin-top: 55px;
+}
+.middle-block p{
+    font-size: 12px;
+}
+.middle-block a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.right-block{
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 220px;
+    margin-top: 20px;
+}
+.right-block h4{
+    margin-left: 35px;
+}
+#cloud{
+    width: 220px;
+    height: 110px;
+    background-color: #D7EEFE;
+    padding-top: 1px;
+}
+#cloud p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-author{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.footer{
+    width: 760px;
+    height: 81px;
+    background-color: #D7EEFE;
+
+}
+#footerline{
+    width: 760px;
+    display: inline-block;
+    height: 3px;
+    background-color: #002233;
+    margin-bottom: 10px;
+}
+.footer-navbar{
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    margin-left: 170px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.footer-navbar ul li{
+    display: inline-block;
+    
+
+}
+.footer-navbar li{
+   margin-right: 25px;
+   
+}
+.footer-navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}

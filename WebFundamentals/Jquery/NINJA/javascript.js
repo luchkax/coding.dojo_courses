@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $('#image1').click(function(){
+        $('#image1').hide();
+    });
+    $('#image2').click(function(){
+        $('#image2').hide();
+    });
+    $('#image3').click(function(){
+        $('#image3').hide();
+    });
+    $('#image4').click(function(){
+        $('#image4').hide();
+    });
+    $('#image5').click(function(){
+        $('#image5').hide();
+    });
+});
