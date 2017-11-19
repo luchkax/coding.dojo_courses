@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="css/style.css") }}">
+    <title>Document</title>
+</head>
+<body>
+    <div class = 'container'>
+        <form action="/create" method = "post">
+            {% with errors = get_flashed_messages(category_filter=["nameError"]) %}
+            {% if errors %}
+            <div class="error">
+                {%- for msg in errors %}
+                <p>{{ msg }}</p>
+                {% endfor -%}
+            </div>
+            {% endif %}
+            {% endwith %}
+            <h3>Your name: 
+                <input type = "text" name = "nameid">
+            </h3>
+            <h3>Dojo location:
+                    <select name="locationid">
+                        <option value="sanjose">San Jose</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="la">Los Angeles</option>
+                        <option value="seattle">Seattle</option>
+                        <!-- {% for i in option_list %}
+                        <option name="{{ i }}">{{ i }}</option>
+                        {% endfor %} -->
+                    </select>
+                    <br><br>
+            </h3>
+            <h3>Favorite language:</h3>
+                    <select name="languageid">
+                        <option value="python">Python</option>
+                        <option value="csharp">C#</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="mean">Mean</option>
+                        <!-- {% for j in language_list %}
+                        <option name="{{ j }}">{{ j }}</option>
+                        {% endfor %} -->
+                    </select>
+                    <br><br>
+            {% with errors = get_flashed_messages(category_filter=["commentError"]) %}
+            {% if errors %}
+            <div class="error">
+                {%- for msg in errors %}
+                <p>{{ msg }}</p>
+                {% endfor -%}
+            </div>
+            {% endif %}
+            {% endwith %}
+            <h3>Your comment:</h3>
+                    <input name = "commentid">
+                    <input type ="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

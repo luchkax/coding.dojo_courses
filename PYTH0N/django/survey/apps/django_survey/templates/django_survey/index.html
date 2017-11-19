@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="surveys/process" method = "post">
+            {% csrf_token %}
+        <h3>Your name: 
+                <input type = "text" name = "name">
+        </h3>
+        <h3>Dojo location:
+            <select name="location">
+                <option value="San Jose">San Jose</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Seattle">Seattle</option>
+            </select>
+                    <br><br>
+        </h3>
+        <h3>Favorite language:</h3>
+            <select name="language">
+                <option value="python">Python</option>
+                <option value="csharp">C#</option>
+                <option value="javascript">JavaScript</option>                        
+                <option value="mean">Mean</option>
+            </select>
+        <h3>Your comment:</h3>
+            <input name = "comment">
+            <input type ="submit" value="submit">
+    </form>
+    {% if messages %}
+    <ul class="messages">
+      {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+    
+</body>
+</html>

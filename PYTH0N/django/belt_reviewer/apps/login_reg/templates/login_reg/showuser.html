@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+        <p><span style="color:red">{{ message }}</span></p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <h2>User Alias: {{ user.name }}</h2>
+    <h5>Name: {{ user.name }} {{ user.alias }}</h5>
+    <h5>Email: {{ user.email }}</h5>
+    <p><a href="/users/books">Home</a></p>
+    
+    <p><a href="/users/logout">Log out</a></p>
+    
+</body>
+</html>

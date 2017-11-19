@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>The email address you entered <span style="color:red">{{ session['email'] }}</span> is VALID email address! Thank you! </h2>
+    <br>
+    <h2>Email entered before: </h2>
+        {% for each_email in emailz %}
+        <h4>*** {{ each_email['email']}}  || {{ each_email['created_at'] }} ***</h2>
+        {% endfor %}
+    
+    <form action="http://127.0.0.1:5000/">
+        <input type="submit" value="Go back" />
+    </form>
+
+    <form action='clear' method="POST">
+        <input type="submit" value="Clear" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Counter</H1>
+
+    <h3>{{ session["counter"] }}</h3>
+    <form action="/reset_button" >
+        <button type="btn" name = "submit">Clear!</button>
+    </form>
+    <form action="/plus_two">
+        <button type ="btn2" name = "plus2">+2</button>
+    </form>
+
+</body>
+</html>
