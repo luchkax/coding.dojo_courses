@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for("static", filename="css/style.css") }}">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/add_quote" method = "post">
+        <h3>Your name: 
+            <input type = "text" name = "name">
+        </h3>
+        <h3>Your quote:</h3>
+            <input name = "data">
+                <input type ="submit" value="Add my quote">
+    </form>
+    <form action="/quotes">
+        <input type="submit" value="Skip to quotes" />
+    </form>
+    
+    
+</body>
+</html>
