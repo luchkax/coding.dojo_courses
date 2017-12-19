@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+</head>
+<body>
+    <h2>Registration</h2>
+    <div class="messages">
+        <p><span style="color:red"></span></p>
+    </div>
+    <form action="/register" method="POST">
+        First name: <input type="text" name="first_name"><br>
+        Last name: <input type="text" name="last_name"><br>
+        Email: <input type="text" name="email"><br>
+        Password: <input type="password" name="password"><br>
+        Confirm password: <input type="password" name="password_confirm"><br>
+        Birth date:  Birthday: <input type="date" name="bdate"><br>
+        <input type="submit" value="Register">
+    </form>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        Email: <input type="text" name="email"><br>
+        Password: <input type="password" name="password"><br>
+        <input type="submit" value='Login'>
+    </form>
+    
+</body>
+</html>

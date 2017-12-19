@@ -1,0 +1,97 @@
+<div class="msg1" *ngIf = "msg1">
+  <p><span style="color:blue">Thank you for registering, an email was sent at {{ tempUser.firstName }}  and the letter was sent to  {{ tempUser.street }} {{ tempUser.city }}</span></p>
+</div>
+<div>
+    <h1>Registration</h1>
+    <form #userForm="ngForm" (submit)="onSubmit()">
+      
+      <label for="firstName">*First Name:</label>
+      
+      <input
+      type="text"
+      name="firstName"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.firstName"
+      #firstName="ngModel"/><br>
+     
+      <p *ngIf='firstName.errors && !firstName.pristine' ><span style="color:red">First Name field not correct</span></p>
+     
+      <label for="lastName">*Last Name:</label>
+     
+      <input
+      type="text"
+      name="lastName"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.lastName"
+      #lastName="ngModel"/><br>
+     
+      <p *ngIf='lastName.errors && !lastName.pristine' ><span style="color:red">Last Name field not correct</span></p>
+      <label for="email">*Email:</label>
+      
+      <input
+      type="email"
+      name="email"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.email"
+      #email="ngModel"/><br>
+     
+      <p *ngIf='email.errors && !email.pristine' ><span style="color:red">Email field not correct</span></p>
+      
+      <label for="password">*Password:</label>
+      
+      <input
+      type="password"
+      name="password"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.password"
+      #password="ngModel"/><br>
+     
+       <p *ngIf='password.errors && !password.pristine' ><span style="color:red">Password field not correct</span></p>
+      <label for="passwConfirm">*Password Confirmation:</label>
+      
+      <input
+      type="password"
+      name="passwConfirm"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.passwConfirm"
+      #passwConfirm="ngModel"/><br>
+      <p *ngIf="user.password !== user.passwConfirm"  ><span style="color:red">Password do not match</span></p>
+      
+      <label for="street">*Street Address:</label>
+      
+      <input type="text" name="street"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.street"
+      #street="ngModel"/><br>
+      
+      <label for="unit">Unit/Apt #</label>
+      <input type="text" name="unit"/><br>
+      
+      <label for="city">*City:</label>
+      <input type="text" name="city"
+      required 
+      minlength="4" 
+      maxlength="24"
+      [(ngModel)]="user.city"
+      #city="ngModel"/><br>
+      
+      <label for="lucky">*I am feeling lucky:</label>
+      <input type="radio" name="lucky" value="Yes" checked>Yes
+      <input type="radio" name="lucky" value="No" checked>No<br>
+      <input type='submit' value='Register' >
+    </form>
+    {{ users | json }}
+    <!-- {{ user | json }} -->
+  </div>

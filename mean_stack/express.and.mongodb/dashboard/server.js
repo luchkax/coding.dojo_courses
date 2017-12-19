@@ -53,8 +53,7 @@ app.post('/addmessage', function (req, res) {
   var message = new Message();
   message.name = req.body.name;
   message.text = req.body.text;
-  // responses inside of callback
-  // JS WONT WAIT FOR YOU!!!
+ 
   message.save(function (error) {
     if (error) {
       console.log(error)
@@ -76,8 +75,7 @@ app.post('/addcomment/:id', function (req, res) {
       comment._message = message._id;
       comment.name = req.body.name;
       comment.text = req.body.text;
-      // responses inside of callback
-      // JS WONT WAIT FOR YOU!!!
+
       message.comments.push(comment);
       console.log(message._id);
       console.log(comment.text);
