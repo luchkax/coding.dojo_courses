@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/bin/Debug/netcoreapp1.1/simple-crud.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/bin/Debug/netcoreapp1.1/simple-crud.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/bin/Debug/netcoreapp1.1/simple-crud.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/obj/Debug/netcoreapp1.1/simple-crud.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/bin/Debug/netcoreapp1.1/simple-crud.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/bin/Debug/netcoreapp1.1/simple-crud.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/obj/Debug/netcoreapp1.1/simple-crud.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/simple-crud/obj/Debug/netcoreapp1.1/simple-crud.pdb

@@ -1,0 +1,31 @@
+<h1><a href="/dashboard">Dashboard</a> || <a href="/users/@ViewBag.userId">Profile</a> || <a href="/logout">Logout</a></h1>
+@model userDashboard.Models.Register
+<h1>Registration</h1>
+<hr>
+<form asp-controller="Home" asp-action="RegisterInside" method="post">
+    <label asp-for="FirstName">First Name</label>
+    <input asp-for="FirstName"/>
+    <span asp-validation-for="FirstName"></span>
+
+    <br>
+    <label asp-for="LastName">Last Name</label>
+    <input asp-for="LastName"/>
+    <span asp-validation-for="LastName"></span>
+    <br>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"/>
+    <span asp-validation-for="Email"></span>
+
+    <br>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"/>
+    <span asp-validation-for="Password"></span>
+
+     <br>
+    <label asp-for="ConfirmPassword">Confirm password</label>
+    <input asp-for="ConfirmPassword" type="password"/>
+    <span asp-validation-for="ConfirmPassword"></span>
+
+    <br>
+    <button type="submit">Register</button>
+</form>

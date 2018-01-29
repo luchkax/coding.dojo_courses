@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/bin/Debug/netcoreapp1.1/collections.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/bin/Debug/netcoreapp1.1/collections.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/bin/Debug/netcoreapp1.1/collections.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/obj/Debug/netcoreapp1.1/collections.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/bin/Debug/netcoreapp1.1/collections.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/bin/Debug/netcoreapp1.1/collections.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/obj/Debug/netcoreapp1.1/collections.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/collections/obj/Debug/netcoreapp1.1/collections.pdb

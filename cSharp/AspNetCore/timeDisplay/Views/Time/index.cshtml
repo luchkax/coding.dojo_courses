@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>DateTime</title>
+    </head>
+    <body>
+        <h1>Current Date and time:</h1>
+        @{
+            DateTime CurrentTime = DateTime.Now;
+            string Time = DateTime.Now.ToString("hh:mm tt");
+            string Date = DateTime.Now.ToString("dd-MM-yyyy");
+        }
+        <p>@Time</p>
+        <p>@Date</p>
+    </body>
+</html>

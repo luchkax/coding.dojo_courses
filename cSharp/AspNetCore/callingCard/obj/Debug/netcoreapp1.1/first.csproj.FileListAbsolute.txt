@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/bin/Debug/netcoreapp1.1/first.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/bin/Debug/netcoreapp1.1/first.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/bin/Debug/netcoreapp1.1/first.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/bin/Debug/netcoreapp1.1/first.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/bin/Debug/netcoreapp1.1/first.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/obj/Debug/netcoreapp1.1/first.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/obj/Debug/netcoreapp1.1/first.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/first/obj/Debug/netcoreapp1.1/first.pdb

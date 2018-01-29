@@ -1,0 +1,15 @@
+<h1>Error occured! try again</h1>
+<div>
+    @{
+        foreach(var error in ViewBag.Errors)
+        {
+            //If there are any errors for a field...
+            if(@error.Errors.Count > 0)
+            {
+                // We show the first error for that field
+                <p>@error.Errors[0].ErrorMessage</p>
+            }
+        }
+    }
+</div>
+<a href="/">Back to registration</a>

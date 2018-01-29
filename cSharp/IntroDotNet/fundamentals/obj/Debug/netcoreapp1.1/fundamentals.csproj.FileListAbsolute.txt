@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/bin/Debug/netcoreapp1.1/fundamentals.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/bin/Debug/netcoreapp1.1/fundamentals.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/bin/Debug/netcoreapp1.1/fundamentals.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/bin/Debug/netcoreapp1.1/fundamentals.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/bin/Debug/netcoreapp1.1/fundamentals.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/obj/Debug/netcoreapp1.1/fundamentals.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/obj/Debug/netcoreapp1.1/fundamentals.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/fundamentals/obj/Debug/netcoreapp1.1/fundamentals.pdb

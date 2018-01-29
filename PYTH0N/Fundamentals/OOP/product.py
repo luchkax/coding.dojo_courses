@@ -41,4 +41,5 @@ class product(object):
         return self
 
 phone = product("Smartphone", 880, 208, "Apple inc.")
-phone.display_info().sold().add_tax(0.12).return_item("Open box")
+# phone.display_info().sold().add_tax(0.12).return_item("Open box")
+phone.display_info().return_item("Open box")

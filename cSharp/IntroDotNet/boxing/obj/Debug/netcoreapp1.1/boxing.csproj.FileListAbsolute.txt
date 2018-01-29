@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/bin/Debug/netcoreapp1.1/boxing.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/bin/Debug/netcoreapp1.1/boxing.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/bin/Debug/netcoreapp1.1/boxing.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/obj/Debug/netcoreapp1.1/boxing.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/bin/Debug/netcoreapp1.1/boxing.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/bin/Debug/netcoreapp1.1/boxing.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/obj/Debug/netcoreapp1.1/boxing.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/boxing/obj/Debug/netcoreapp1.1/boxing.pdb

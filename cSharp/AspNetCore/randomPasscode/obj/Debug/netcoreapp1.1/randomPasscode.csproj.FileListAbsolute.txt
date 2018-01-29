@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/bin/Debug/netcoreapp1.1/randomPasscode.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/bin/Debug/netcoreapp1.1/randomPasscode.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/bin/Debug/netcoreapp1.1/randomPasscode.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/bin/Debug/netcoreapp1.1/randomPasscode.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/bin/Debug/netcoreapp1.1/randomPasscode.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/obj/Debug/netcoreapp1.1/randomPasscode.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/obj/Debug/netcoreapp1.1/randomPasscode.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/randomPasscode/obj/Debug/netcoreapp1.1/randomPasscode.pdb

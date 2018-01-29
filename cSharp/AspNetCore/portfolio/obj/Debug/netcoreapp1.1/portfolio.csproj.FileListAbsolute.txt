@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/bin/Debug/netcoreapp1.1/portfolio.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/bin/Debug/netcoreapp1.1/portfolio.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/bin/Debug/netcoreapp1.1/portfolio.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/bin/Debug/netcoreapp1.1/portfolio.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/bin/Debug/netcoreapp1.1/portfolio.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/obj/Debug/netcoreapp1.1/portfolio.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/obj/Debug/netcoreapp1.1/portfolio.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/portfolio/obj/Debug/netcoreapp1.1/portfolio.pdb

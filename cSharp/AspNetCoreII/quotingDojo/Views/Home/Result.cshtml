@@ -1,0 +1,12 @@
+<h1>Here are all your quotes!</h1>
+@{
+    @foreach(var quote in ViewBag.quotes)
+    {
+        <h3>@quote["name"]</h3>
+        <h5>@quote["text"]</h5>
+        <h6>@quote["created_at"]</h6>
+        int id = @quote["id"];
+        <h5><a href="delete/@id">Delete Quote</a></h5>
+    }
+}
+<a href="/">Back</a>

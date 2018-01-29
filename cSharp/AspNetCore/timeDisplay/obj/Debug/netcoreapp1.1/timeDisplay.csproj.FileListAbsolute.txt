@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/bin/Debug/netcoreapp1.1/timeDisplay.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/AspNetCore/timeDisplay/obj/Debug/netcoreapp1.1/timeDisplay.pdb

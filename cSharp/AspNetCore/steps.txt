@@ -1,0 +1,51 @@
+C# MVC ASP.NET steps
+
+1. dotnet new web
+2. export ASPNETCORE_ENVIRONMENT=Development
+3. put ---/
+    <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
+  </ItemGroup> \--- to the JSON file
+
+3.1. dotnet add package Microsoft.AspNetCore.Mvc -v=1.1
+3.2  add static --/ dotnet add package Microsoft.AspNetCore.StaticFiles -v=1.1
+4. dotnet restore
+5. dotnet watch run
+6. add these to Startup.cs --/ services.AddMvc(); \--  and --/ services.AddSession() \-- and --/  app.UseMvc(); \-- 
+7. mkdir Controllers (cd inside)
+8. touch HomeController
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
+ 
+    namespace YourNamespace.Controllers
+    {
+        public class HelloController : Controller
+        {
+        [HttpGet]
+            [Route("")]
+            public string Index()
+            {
+                return "Hello World!";
+            }
+            
+            [HttpPost]
+            [Route("")]
+            public IActionResult Other()
+            {
+            }
+        }
+    }
+
+9. Startup.cs - do following --/ 
+            public void Configure(IApplicationBuilder app)
+            {
+                // Other Use statements
+                app.UseMvc();
+                app.UseStaticFiles();   
+                app.UseSession();   
+            }
+
+10. mkdir Views /cd
+11. mkdir Home (because of name of controller) OR mkdir Shared for inputing inside whatever
+12. dotnet add package Microsoft.AspNetCore.Session -v=1.1
+13. 

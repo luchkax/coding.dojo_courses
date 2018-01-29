@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Dashboard || <a href="/users/@ViewBag.userId">Profile</a> || <a href="/logout">Logout</a></h1>
+<h2>All users</h2>
+<table class="table">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>USER STATUS</th>
+        </tr>
+@{
+    foreach (var user in ViewBag.users)
+    {   
+        <tr>
+            <th>@user.UserId</th>
+            <th>@user.FirstName @user.LastName</th>
+            <th>@user.Email</th>
+            <th>@user.UserLevel</th>
+        </tr>
+    }
+}       
+    </table>

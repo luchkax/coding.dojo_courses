@@ -1,0 +1,26 @@
+@{
+    <h1>Dojodachi</h1>
+    <p>Fullness: @TempData["fullness"]</p> 
+    <p>Happiness: @TempData["happiness"]</p>
+    <p>Meals: @TempData["meals"]</p>
+    <p>Energy: @TempData["energy"]</p>
+}  
+<br>
+
+@{
+    if(@TempData["gameStatus"] == "Playing")
+    {
+        <a href="/feed"><button>Feed</button></a>
+        <a href="/play"><button>Play</button></a>
+        <a href="/work"><button>Work</button></a>
+        <a href="/sleep"><button>Sleep</button></a>
+    }
+    else
+    {
+        <a href="/reset"><button>Try Again</button></a>
+    }
+    <br>
+    <br>
+    @TempData["message"]
+
+}

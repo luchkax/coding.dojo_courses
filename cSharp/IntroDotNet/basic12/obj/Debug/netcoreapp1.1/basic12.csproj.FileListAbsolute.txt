@@ -1,0 +1,8 @@
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/bin/Debug/netcoreapp1.1/basic12.deps.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/bin/Debug/netcoreapp1.1/basic12.runtimeconfig.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/bin/Debug/netcoreapp1.1/basic12.runtimeconfig.dev.json
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/bin/Debug/netcoreapp1.1/basic12.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/bin/Debug/netcoreapp1.1/basic12.pdb
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/obj/Debug/netcoreapp1.1/basic12.AssemblyInfo.cs
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/obj/Debug/netcoreapp1.1/basic12.dll
+/Users/LuchkaMAC/CODE/CODING_DOJO/cSharp/IntroDotNet/basic12/obj/Debug/netcoreapp1.1/basic12.pdb
