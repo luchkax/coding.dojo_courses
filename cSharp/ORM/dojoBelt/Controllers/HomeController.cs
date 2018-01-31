@@ -30,17 +30,19 @@ namespace dojoBelt.Controllers
             }
             else
             {   
-
                 List<User> allUsers = _context.Users.Include(u => u.Activities).ThenInclude(g=>g.Guests).ToList();
-                List<Activity> allActivities = _context.Activities.Include(g=>g.Guests).ToList();
+                List<Activity> allActivities = _context.Activities.Include(g=>g.Guests).OrderBy(x => x.ActivityDate).ToList();
                 Activity Activ = _context.Activities.Where(u=>u.UserId == id).FirstOrDefault();
                 User userlog = _context.Users.Where(u=>u.UserId == id).SingleOrDefault();
+                
 
                 ViewBag.ALL = allUsers;
                 ViewBag.ACT = allActivities;
+                ViewBag.DateTimeNow = DateTime.Now;
                 ViewBag.loggeduser = id;
                 ViewBag.name = userlog.FirstName;
-                System.Console.WriteLine(ViewBag.name);
+                System.Console.WriteLine(ViewBag.name);                
+
 
 
 
@@ -93,6 +95,7 @@ namespace dojoBelt.Controllers
                     }
                     else
                     {
+                        TempData["ActivityDate"] = "You cannot add activity with the past date!";
                         return View("NewActivity");
                     }
                 }
@@ -114,13 +117,17 @@ namespace dojoBelt.Controllers
             }
             else
             {   
+                
+                Guest selecteddActivity = _context.Guests.Where(b=>b.ActivityId == 3).FirstOrDefault();
+
+
                 List<Activity> allActivities = _context.Activities.Include(g=>g.Guests).ToList();
                 Activity selectedActivity = _context.Activities.Where(e => e.ActivityId == activityId).Include(g=>g.Guests).ThenInclude(u=>u.User).SingleOrDefault();
                 Activity activity = _context.Activities.Where(e => e.ActivityId == activityId).FirstOrDefault();
                 User user = _context.Users.Where(u => u.UserId == activity.UserId).SingleOrDefault();                
                 ViewBag.tr = user.FirstName; 
                 ViewBag.creator = activity;
-                ViewBag.count = selectedActivity.Guests;
+                ViewBag.count = selectedActivity.Guests.Count();
                 ViewBag.act = selectedActivity;
                 
                 return View("Activity");
@@ -138,16 +145,23 @@ namespace dojoBelt.Controllers
             }
             else
             {
-                Guest newGuest = new Guest
+                Guest exists = _context.Guests.Where(b=>b.ActivityId == activityId).Where(o=>o.UserId == id).FirstOrDefault();
+                if(exists == null)
                 {
-                    ActivityId = activityId,
-                    UserId = (int)id
-                };
-                _context.Guests.Add(newGuest);
-                _context.SaveChanges();
-                System.Console.WriteLine("ADDED-----------------------------");
-
-                return RedirectToAction("ActivityPage", new{activityId = activityId});
+                    Guest newGuest = new Guest
+                    {
+                        ActivityId = activityId,
+                        UserId = (int)id
+                    };
+                    _context.Guests.Add(newGuest);
+                    _context.SaveChanges();
+                    return RedirectToAction("ActivityPage", new{activityId = activityId});
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "User already exists in this activity!";
+                    return RedirectToAction("Dashboard");
+                }
             }
         }
 
@@ -180,7 +194,7 @@ namespace dojoBelt.Controllers
             }
             else
             {
-                Guest selectedActivity = _context.Guests.Where(b=>b.UserId == id).Include(p=>p.ActivityId == activityId).FirstOrDefault();
+                Guest selectedActivity = _context.Guests.Where(b=>b.ActivityId == activityId).FirstOrDefault();
                 _context.Guests.Remove(selectedActivity);
                 _context.SaveChanges();
                 return RedirectToAction("Dashboard");

@@ -3,6 +3,7 @@
 <a href="/logout">Log off</a> || <a href="/dashboard">Home</a>
 <h2>Create an Activity</h2>
 <hr>
+@TempData["ActivityDate"]
 <form asp-controller="Home" asp-action="CreateActivity" method="post">
     <label asp-for="Title"></label>
     <input class="form-control" asp-for="Title">
