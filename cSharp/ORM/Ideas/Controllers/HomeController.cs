@@ -21,7 +21,6 @@ namespace dojoTest.Controllers
             _context = context;
         }
 
-        // GET: /Home/
         [HttpGet]
         [Route("/dashboard")]
         public IActionResult Dashboard()
@@ -36,7 +35,6 @@ namespace dojoTest.Controllers
                 List<User> Users = _context.Users.Include(p=>p.Posts).ThenInclude(l=>l.Likes).ToList();
                 List<Post> Posts = _context.Posts.Include(u=>u.Likes).OrderByDescending(x => x.Created_At).ToList();
                 User selectedUser = _context.Users.Where(u=>u.UserId == id).Include(p=>p.Posts).ThenInclude(l=>l.Likes).SingleOrDefault();
-                // Like exists = _context.Likes.Where(p=>p.PostId == Posts.).Where(u=>u.UserId == id).FirstOrDefault();
 
 
 
@@ -121,17 +119,13 @@ namespace dojoTest.Controllers
                     _context.Likes.Add(newLike);
                     _context.SaveChanges();
                     
-                    // bool heart = true;
-                    
-                    // ViewBag.heart = heart;
                     return RedirectToAction("Dashboard");
                 }
                 else
                 {
                     _context.Likes.Remove(exists);
                     _context.SaveChanges();
-                    // bool heart = false;
-                    // ViewBag.heart = heart;                
+                         
                     return RedirectToAction("Dashboard");
                 }
             }
@@ -152,15 +146,12 @@ namespace dojoTest.Controllers
                 Like likes = _context.Likes.Where(p=>p.PostId == postId).FirstOrDefault();
                 User selectedUser = _context.Users.Where(u=>u.UserId == selectedPost.UserId).FirstOrDefault();
                 List<Like> likesList = _context.Likes.Where(p=>p.PostId == postId).Include(u=>u.LikedBy).ToList();
-                // List<User> userswholiked = _context.Users.Include(users=>users.)
-
-                // User users = _context.Users.Include(user=>user.Likes).Where(l=>l.PostId == selectedUser.UserId).FirstOrDefault();
-
+               
                 
                 ViewBag.Post = selectedPost;
                 ViewBag.LikesList = likesList;
                 ViewBag.name = selectedUser.FirstName;
-                // ViewBag.users = users;
+                
                 return View("PostPage");
             }
         }

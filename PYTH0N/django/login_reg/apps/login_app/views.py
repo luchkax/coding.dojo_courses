@@ -6,8 +6,8 @@ from django.contrib import messages
 def index(request):
     return render(request, "login_app/index.html")
 
-def success(request):
-    return render(request, "login_app/success.html")
+# def success(request):
+#     return render(request, "login_app/success.html")
 
 def register(request):
     result = User.objects.validate_registration(request.POST)

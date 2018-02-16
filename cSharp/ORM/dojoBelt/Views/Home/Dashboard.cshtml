@@ -27,12 +27,7 @@
                     <th>@act.Duration hours</th>
                     <th>@act.Creator.FirstName</th>
                     <th>@act.Guests.Count</th>
-                           
-                    
-                
-                    
-                
-                    
+
                     @if(ViewBag.loggeduser != @act.UserId)
                     {      
                     <th><a href="/join/@act.ActivityId">Join</a> | <a href="/leave/@act.ActivityId">Leave</a></th>
